@@ -1,0 +1,6 @@
+/Debug/
+
+gcc/*
+!gcc/Makefile
+!gcc/msp432p401r.lds
+!gcc/startup_msp432p401r_gcc.c
