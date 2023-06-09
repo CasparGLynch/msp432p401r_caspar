@@ -48,6 +48,7 @@ public:
 
     static standard_reply reset_watchdog(DWire &wire, uint8_t i2c_address);
     static standard_reply no_operation(DWire &wire, uint8_t i2c_address);
+    static standard_reply system_reset(DWire &wire, uint8_t i2c_address);
 };
 
 #endif //EPS_CONVERSION_EPS_H
