@@ -37,3 +37,8 @@ EPS::standard_reply EPS::reset_watchdog(DWire &wire, uint8_t i2c_address) {
 
 }
 
+EPS::standard_reply EPS::no_operation(DWire &wire, uint8_t i2c_address) {
+    standard_reply reply;
+
+}
+
