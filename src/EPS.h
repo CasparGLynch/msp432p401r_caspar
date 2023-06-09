@@ -29,7 +29,6 @@
 #define PCU_3_ADDR 0x2E
 #define PCU_4_ADDR 0x2F
 
-#define RESET_WATCHDOG_COMMAND_CODE 0x06
 #define
 
 #include "DWire.h"
